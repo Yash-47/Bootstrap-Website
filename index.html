@@ -10,10 +10,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light nav_style">
             <div class="container-fluid">
               <a class="navbar-brand text-capitalize" href="#" style="color: white;">Sekiro</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,10 +38,10 @@
                       Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#" style="color: white;">Action</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: white;">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#" style="color: white;">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -125,7 +131,7 @@
             </section>
             <!-- End About Section -->
             <!-- Reviews Page  -->
-            <section class="main_heading my-5 bg-light pt-5">
+            <section class="main_heading my-5 pt-5 bg-light">
               <div class="text-center">
                   <h1 class="display-4">Reviews</h1>
                   <hr class="w-25 mx-auto"/>
@@ -207,12 +213,12 @@
                   </div>
                   <div class="col-md-4 col-10 col-xxl-4 mx-auto">
                     <figure>
-                      <img src="images/gallery-3.jpg" alt="gallery images" class="img-fluid">
+                      <img src="images/gallery-3.jpg" alt="gallery images" class="img-fluid  ">
                     </figure>
                   </div>
                   <div class="col-md-4 col-10 col-xxl-4 mx-auto">
                     <figure>
-                      <img src="images/gallery-4.jpg" alt="gallery images" class="img-fluid">
+                      <img src="images/gallery-7.jpg" alt="gallery images" class="img-fluid">
                     </figure>
                   </div>
                   <div class="col-md-4 col-10 col-xxl-4 mx-auto">
@@ -227,7 +233,7 @@
                   </div>
                   <div class="col-md-4 col-10 col-xxl-4 mx-auto">
                     <figure>
-                      <img src="images/gallery-7.jpg" alt="gallery images" class="img-fluid">
+                      <img src="images/gallery-4.jpg" alt="gallery images" class="img-fluid">
                     </figure>
                   </div>
                   <div class="col-md-4 col-10 col-xxl-4 mx-auto">
@@ -244,6 +250,73 @@
               </div>
             </section>
             <!-- End gallery -->
+            <!-- offers section -->
+            <section class="main_heading my-5  pt-2 offers_style">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xxl-12 col-12 py-5 text-center text-capitalize">
+                    <h1>Buy this game now</h1>
+                    <p>Want a thriller experience of this Game?</p>
+                    
+                    <button type="button" class="btn btn-warning"  data-bs-placement="top" title="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle mx-1" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>Buy Now!</button>
+                  </div>
+                </div>
+                 
+              </div>
+            </section>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Check it out!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Price: $100
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://www.sekirothegame.com/buy" target="_blank">
+        <button type="button" class="btn btn-primary">Buy Now!</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+            <!-- End offers section  -->
+            <!-- contacts section  -->
+            <section class="main_heading my-5 bg-light pt-5">
+              <div class="text-center">
+                  <h1 class="display-4">Contact Us!</h1>
+                  <hr class="w-25 mx-auto"/>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End contacts section  -->
 
 
 
