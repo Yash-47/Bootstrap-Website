@@ -28,10 +28,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"style="color: white;">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html"style="color: white;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="#" style="color: white;">About us</a>
+                    <a class="nav-link text-capitalize" href="about.html" style="color: white;">About Game</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
@@ -48,10 +48,10 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="#" style="color: white;">gallery</a>
+                    <a class="nav-link text-capitalize" href="gallery.html" style="color: white;">gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="#" style="color: white;">contact us</a>
+                    <a class="nav-link text-capitalize" href="contact.html" style="color: white;">contact us</a>
                   </li>
                 </ul>
     
@@ -255,7 +255,7 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-xxl-12 col-12 py-5 text-center text-capitalize">
-                    <h1>Buy this game now</h1>
+                    <h1>Buy this game now!</h1>
                     <p>Want a thriller experience of this Game?</p>
                     
                     <button type="button" class="btn btn-warning"  data-bs-placement="top" title="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle mx-1" viewBox="0 0 16 16">
@@ -303,12 +303,45 @@
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                          <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Full Name">
+                      </div>
+                      <label for="exampleDataList" class="form-label">Select City
+                      </label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+<datalist id="datalistOptions">
+  <option value="San Francisco"></option>
+  <option value="New York"></option>
+  <option value="Seattle"></option>
+  <option value="Los Angeles"></option>
+  <option value="Chicago"></option>
+</datalist>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                       <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                      </div>
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Default file input example</label>
+                        <input class="form-control" type="file" id="formFile">
                       </div>
                       <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -317,7 +350,10 @@
               </div>
             </section>
             <!-- End contacts section  -->
-
+            <footer class="bg-secondary text-center text-white">
+              <p>You can mail me on <a href="#">yashsonare@gmail.com</a></p>
+            </footer>
+            <!-- Footer -->
 
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
